@@ -9,8 +9,8 @@ class Mamiferos:
         self.orelha = orelha
     
 class Cachorro(Mamiferos):
-    def __init__(self, pata, calda, orelha, fucinho):
-        super().__init__(pata, calda, orelha)
+    def __init__(self, pata, calda, orelha, fucinho): 
+        super().__init__(pata, calda, orelha) #erdando ded mamiferos
         self.fucinho = fucinho
 
 class Gato(Mamiferos):
